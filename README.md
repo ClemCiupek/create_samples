@@ -3,6 +3,7 @@
 This script eases the sample creation from external sources with dbt.
 
 ## Installation
+Clone the repo in your Vinted working directory (= where you clone the dataverse repo)
 ```sh
 # Clone repo
 gcl git@github.com:ClemCiupek/create_samples.git
