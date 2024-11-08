@@ -25,8 +25,8 @@ chmod +x "${target_dir}/create_samples.sh"
 
 # Add the script directory to .gitignore if not already ignored
 gitignore_file="${dataverse_repo}/.gitignore"
-if ! grep -q "^${domain}/script$" "$gitignore_file"; then
-    echo "${domain}/script" >> "$gitignore_file"
+if ! grep -q "^${domain}/scripts$" "$gitignore_file"; then
+    echo "${domain}/scripts" >> "$gitignore_file"
 fi
 
 echo "Installation complete."
