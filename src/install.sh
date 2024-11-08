@@ -12,7 +12,6 @@ domain=${domain:-marketing}
 
 # Define the target directorys
 target_dir="${dataverse_repo}/${domain}/scripts"
-echo "target_dir: ${target_dir}"
 
 # Create the target directory if it doesn't exist
 mkdir -p "$target_dir"
